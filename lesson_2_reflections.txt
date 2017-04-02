@@ -23,3 +23,10 @@ How would branches help?
 Branches are useful when you want to experiment with new features while leaving the working
 version untouched. Branches allow you to add such experimental features freely
 without fear of messing up your master branch version.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it easy to see the linear progression of commits as well as where
+new branches deviate from the master branch. When trying to debug, they can also
+help one determine which commits to reexamine. 
