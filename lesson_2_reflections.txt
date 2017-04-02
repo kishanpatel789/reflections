@@ -29,4 +29,20 @@ How do the diagrams help you visualize the branch structure?
 
 Diagrams make it easy to see the linear progression of commits as well as where
 new branches deviate from the master branch. When trying to debug, they can also
-help one determine which commits to reexamine. 
+help one determine which commits to reexamine.
+
+
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+
+When two branches are merged, all of the commits in the two branches are put together.
+This means that the changes in the two branches and various updates and compiled
+into a single branch. The old commits can still be accessed by 'git log', so in the
+diagram, the commits of both branches become parents of the new commit.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging saves a lot of time as manual merging of entire commits can be tedious.
+Manual commits take a bit more work and may require more collaboration with others
+if they branches were not all made by you. s
