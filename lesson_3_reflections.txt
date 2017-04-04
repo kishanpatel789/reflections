@@ -3,3 +3,20 @@ When would you want to use a remote repository rather than keeping all your work
 A remote directory would be useful when working on a project with a team of other develoeprs.
 Each developer could access the past commits and work independently; later the commits can be merged.
 As a cloud service, working with a remote repository allows one to work on the same project from multiple computers.
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+You may want two separate versions of the project. The local version could serve as a
+backup for the remote repository. Also, if the remote repository automatically
+pulled into the local branch, a bug could be introduced.
+
+
+Describe the differences between forks, clones, and branches.
+When would you use one instead of another?
+
+A fork is a copy of a Github repository that stores the new repository in your
+Github account. A clone is a copy of a Github or local repository that is stored
+on the local machine. Branches are a new line of commits that are used when testing
+new features. Branches can be merged back into the master.
