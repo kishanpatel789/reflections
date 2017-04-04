@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+A remote directory would be useful when working on a project with a team of other develoeprs.
+Each developer could access the past commits and work independently; later the commits can be merged.
+As a cloud service, working with a remote repository allows one to work on the same project from multiple computers.
