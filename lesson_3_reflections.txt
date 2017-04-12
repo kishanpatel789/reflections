@@ -20,3 +20,13 @@ A fork is a copy of a Github repository that stores the new repository in your
 Github account. A clone is a copy of a Github or local repository that is stored
 on the local machine. Branches are a new line of commits that are used when testing
 new features. Branches can be merged back into the master.
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+Having a local copy of the last known remote state allows you to see how your local
+master branch has changed from the remote branch.
+Also, if a collaborator makes changes to the local branch, you can examine the
+difference between the modified remote branch and your master branch before
+merging the two states. 
