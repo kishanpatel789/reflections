@@ -29,4 +29,25 @@ Having a local copy of the last known remote state allows you to see how your lo
 master branch has changed from the remote branch.
 Also, if a collaborator makes changes to the local branch, you can examine the
 difference between the modified remote branch and your master branch before
-merging the two states. 
+merging the two states.
+
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+I suppose collaboration could be done via email or a cloud service like Dropbox.
+It would not be as efficient to communicate changes with other collaborators. It
+would also take a bit longer to merge changes since you wouldn't have access to
+Github's pull requests.
+If you work with someone in the same room, it may be easier to discuss changes as
+you are coding.
+
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+Making changes in a separate branch is useful when you want to build a new feature
+that could potentially introduce error into your working master branch. However,
+when many branches are formed (both by you and collaborators), merging branches
+locally and on GitHub can become a bit cumbersome. Making changes exclusively on
+the master branch eliminates some of this struggle.
